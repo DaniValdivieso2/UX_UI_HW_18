@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poly', serif;
+    font-family: 'Urbanist', sans-serif;
+}
+
+nav {
+    background-color: #4A4A4A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    height: 60px;
+    margin: 10px;
+}
+.menu{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poly, serif';
+    
+}
+.flexChild {
+    padding: 10px;
+    margin: 20px;
+}
+
+.heroImg {
+    width: 100%;
+}
+.statement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    font-family: 'Urbanist', sans-serif;
+    color: #6D6E70;
+    font-size: medium;
+    font-weight: 400;
+}
+p {
+    font-family: 'Poly, serif';
+}
+.imageGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.locContainer {
+    color: black;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.locChild {
+    margin: 20px;
+}
+.map {
+    margin-bottom: 30px;
+}
+.footerOptions {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: 'Urbanist', sans-serif;
+}
+.footerChild {
+    margin: 30px;
+}
+footer {
+    background-color: #4A4A4A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
