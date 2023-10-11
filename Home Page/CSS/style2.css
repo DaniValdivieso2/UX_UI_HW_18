@@ -29,7 +29,7 @@ nav {
 }
 
 .heroImg {
-    width: 100%;
+    width: 100vw;
 }
 .statement{
     display: flex;
@@ -90,13 +90,14 @@ p {
     font-family: 'Urbanist', sans-serif;
 }
 .footerChild {
-    margin: 30px;
+    padding: 20px 40px;
 }
 footer {
     background-color: #4A4A4A;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: white;
 }
 
