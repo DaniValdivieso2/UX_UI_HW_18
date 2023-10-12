@@ -27,7 +27,13 @@ nav {
     margin: 20px;
 }
 .heroImg {
+    background-image: url(..//Images/HeroMenu.png);
+    height: 50%;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 500px;
 }
 .textBlock {
     display: flex;
@@ -53,9 +59,18 @@ nav {
     inline-size: 280px;
     overflow-wrap: normal;
 }
-.bodyImg {
-    display: grid;
+.bodyContainer {
+    display: flex;
     justify-content: center;
+}
+.bodyImg {
+       background-image: url(..//Images/BodyMenu.png);
+    height: 100%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 800px;
 }
 .footerOptions {
     display: flex;
